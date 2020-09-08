@@ -40,10 +40,6 @@ body {
   color: #fff;
 }
 
-.header-2 {
-  background-color: #CCCCCC;
-  height: 500px; 
-}
 .btn-white {
   background-color: white;
   margin: 30px; 
@@ -108,13 +104,22 @@ body {
   margin-bottom: 0;
 }
 
-#library .card {
+.hoverable-card {
   cursor: pointer;
   transition: 0.2s;
   border-width: 0;
 }
 
-#library .card:hover {
+.hoverable-card:hover {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   transform: scale(1.01);
+}
+
+/* .carousel-item {
+  width: 100%;
+  min-height: 100%;
+} */
+
+.carousel-inner > .carousel-item > img {
+  width: 100%;
 }
