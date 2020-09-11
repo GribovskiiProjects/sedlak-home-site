@@ -7,7 +7,7 @@ body {
 }
 
 .header-image {
-  background-image: url('/Users/annagribovskaia/Projects/sedlak-home-site/images/henry-co--odUkx8C2gg-unsplash.jpg');
+  background-image: url('/images/henry-co--odUkx8C2gg-unsplash.jpg');
   background-repeat: no-repeat;
   background-position: left;
   background-size: 100% auto;
@@ -92,7 +92,7 @@ body {
   padding: 5em 0;
 }
 
-.block:nth-child(odd) {
+.block:nth-child(even) {
   background-color: #f1f1f1;
 }
 
@@ -114,11 +114,6 @@ body {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
   transform: scale(1.01);
 }
-
-/* .carousel-item {
-  width: 100%;
-  min-height: 100%;
-} */
 
 .carousel-inner > .carousel-item > img {
   width: 100%;
