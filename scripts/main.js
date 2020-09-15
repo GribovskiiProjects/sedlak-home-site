@@ -8,7 +8,7 @@ $(document).ready(function() {
     $('#gallery-modal').modal('show')
 
     var id = $(this).attr('gallery-id') * 1
-    if (id) {
+    if (typeof id !== 'undefined') {
       $('#gallery-carousel').carousel(id)
     }
   })
