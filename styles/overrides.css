@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  background: #f1f1f1;
+  background: #d8d8d8;
 }
 
 .header-image {
@@ -73,9 +73,10 @@ body {
 .block-caption {
   display: inline-block;
   border-radius: 2em;
-  padding: 20px 60px;
+  padding: 1em 2em;
   background-color: #fff;
   text-align: center;
+  min-width: 15em;
 }
 
 .feature-row .feature {
@@ -93,6 +94,10 @@ body {
 }
 
 .block:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.block:nth-child(even) .block-caption.colorized {
   background-color: #f1f1f1;
 }
 
