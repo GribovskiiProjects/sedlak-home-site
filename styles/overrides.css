@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  background: #d8d8d8;
+  background: #fafafa;
 }
 
 .header-image {
@@ -91,6 +91,7 @@ body {
 .content-section {
   position: relative;
   padding: 5em 0;
+  text: center;
 }
 
 .block:nth-child(even) {
