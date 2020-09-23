@@ -124,3 +124,8 @@ body {
 .carousel-inner > .carousel-item > img {
   width: 100%;
 }
+
+.description-text {
+  text-indent: 2em;
+  line-height: 34px;
+}
