@@ -90,8 +90,8 @@ body {
 
 .content-section {
   position: relative;
-  padding: 5em 0;
-  text: center;
+  padding: 5em;
+  text-align: center;
 }
 
 .block:nth-child(even) {
@@ -125,7 +125,34 @@ body {
   width: 100%;
 }
 
-.description-text {
+.description-block {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row-reverse;
+  align-items: center;
+}
+
+.description-block .description-text {
   text-indent: 2em;
-  line-height: 34px;
+  line-height: 2.13em;
+}
+
+.description-block .main-photo {
+  padding-left: 3em;
+}
+
+@media screen and (max-device-width:640px), screen and (max-width:640px) {
+  .description-block {
+    flex-direction: column;
+    flex-flow: column;
+  }
+
+  .description-block .description-text {
+    line-height: 1.8em;
+  }
+
+  .description-block .main-photo {
+    padding: 0;
+    padding-bottom: 3em;
+  }
 }
